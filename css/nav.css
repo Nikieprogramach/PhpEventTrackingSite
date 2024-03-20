@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+}
+
+.navBar{
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    background-color: #caa8f5;
+    background-image: linear-gradient(to bottom right, #9984d4, #caa8f5);
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.navLogo{
+    width: 100px;
+    padding: 10px 10px 10px 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navButtons{
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+

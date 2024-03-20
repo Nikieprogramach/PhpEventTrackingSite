@@ -1,0 +1,77 @@
+.main{
+    padding-top: 80px;
+}
+
+.searchEvents{
+    margin: 10px 10px 10px 10px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 5px 5px 5px 5px;
+    border-bottom: 2px solid #592e83;
+}
+
+.searchEventInput{
+    height: 30px;
+    width: 250px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    border: 2px solid #592e83;
+    color: #592e83;
+    background-color: transparent;
+}
+
+.filtersMenu{
+    width: 400px;
+    background-color: #caa8f5;
+    margin-left: 10px;
+    color: #592e83;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    position: fixed;
+}
+
+.closeBtn{
+    float: right;
+    border-radius: 20px;
+    border: 2px solid #592e83;
+    width: 20px;
+    height: 20px;
+    padding: 0 0 0 0;
+    align-items: center;
+    text-align: center;
+    background-color: #caa8f5;
+    color: #592e83;
+    cursor: pointer;
+}
+
+.notVisible{
+    display: none;
+}
+
+.filtersBtn{
+    border: 2px solid #592e83;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+.expandFilterBtn{
+    cursor: pointer;
+}
+
+.subFilterDropdown{
+    padding-left: 20px;
+}
+
+.eventsDisplayContainer{
+    padding: 10px 10px 10px 10px;
+}
+
+.event{
+    width: 300px;
+    height: 200px;
+    background-color: #caa8f5;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}

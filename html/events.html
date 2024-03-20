@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/page.css">
+    <link rel="stylesheet" href="../css/events.css">
+    <script src="../js/events.js"></script>
+    <title>Events</title>
+</head>
+<body>
+    <nav class="navBar">
+        <div class="navLogo">
+            <div>Logo</div>
+        </div>
+        <div class="navButtons">
+            <div>
+                <a href="./index.html">
+                    <button class="homeButton outlineBtn-dark">Home</button>
+                </a>
+            </div>
+            <div>
+                <a href="./events.html">
+                    <button class="leventsButton outlineBtn-dark">Events</button>
+                </a>
+            </div>
+            <div>
+                <a href="./sign-in.html">
+                    <button class="logInButton outlineBtn-dark">Sign In</button>
+                </a>
+            </div>
+    </nav>
+    <div class="main">
+        <div class="searchEvents">
+            <div class="filters">
+                <div class="filtersBtn" onclick="openFiltersMenu()">Filters</div>
+            </div>
+            <div class="inputs">
+                <input class="searchEventInput" type="text" placeholder="Search event"/>
+            </div>
+        </div>
+        <div class="filtersMenu notVisible" id="filtersMenu">
+            <div class="closeBtn" onclick="openFiltersMenu()">x</div>
+            <div class="filtersContainer">
+                <div class="typeOfEvent">
+                    <p class="expandFilterBtn" onclick="expandFilter('typeOfEvent')">typeOfEvent</p>
+                    <div id="typeOfEvent" class="subFilterDropdown notVisible">
+                        Bruh
+                    </div>
+                </div>
+            </div>
+            <div class="filtersContainer">
+                <div class="typeOfEvent">
+                    <p class="expandFilterBtn" onclick="expandFilter('host')">host</p>
+                    <div id="host" class="subFilterDropdown notVisible">
+                        Bruh
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="eventsDisplayContainer">
+            <div class="event">
+                <p>Name</p>
+                <p>Description</p>
+                <p>Date/Time</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        Footer
+    </div>
+</body>
+</html>
