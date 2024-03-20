@@ -1,35 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/font.css">
-    <link rel="stylesheet" href="../css/nav.css">
-    <link rel="stylesheet" href="../css/page.css">
-    <title>Home</title>
-</head>
-<body>
-    <nav class="navBar">
-        <div class="navLogo">
-            <div>Logo</div>
-        </div>
-        <div class="navButtons">
-            <div>
-                <a href="./index.html">
-                    <button class="homeButton outlineBtn-dark">Home</button>
-                </a>
-            </div>
-            <div>
-                <a href="./events.html">
-                    <button class="leventsButton outlineBtn-dark">Events</button>
-                </a>
-            </div>
-            <div>
-                <a href="./sign-in.html">
-                    <button class="logInButton outlineBtn-dark">Sign In</button>
-                </a>
-            </div>
-    </nav>
+<?php include 'head.php'; ?>
+<?php include 'nav.php'; ?>
+
     <main class="main">
         <div class="heroSection">
             <div class="info">
@@ -57,9 +28,7 @@
                 </div>
             </div>
         </div>
-        <div class="footer">
-            
-        </div>
+        <?php include 'footer.php'; ?>
     </main>
 </body>
 </html>
